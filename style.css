@@ -1,0 +1,47 @@
+.pair {
+  margin-top: 20px;
+}
+
+.pair-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pair-list__item {
+  padding: 15px;
+}
+
+.pair-list__number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border: 1px solid #eee;
+  background-color: #ff6347;
+  border-radius: 5px;
+  font-size: 0;
+  font-weight: bold;
+  color: #ffa500;
+  transition: all 0.2s ease-in-out;
+}
+
+.pair-list__number:hover {
+  cursor: pointer;
+}
+
+.pair-list__item--opened .pair-list__number {
+  background-color: #fff;
+  font-size: 40px;
+}
+
+.pair-list__item--success .pair-list__number {
+  background-color: green;
+  color: #fff;
+  font-size: 40px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
